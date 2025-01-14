@@ -22,7 +22,7 @@ class Space {
   static Widget? bottom;
 
   static void init(BuildContext context) {
-    ScreenUtil.init(context, designSize: const Size(428, 926));
+    ScreenUtil.init(context, designSize: const Size(430, 920));
 
     x = SizedBox(width: 8.w);
     y = SizedBox(height: 8.h);

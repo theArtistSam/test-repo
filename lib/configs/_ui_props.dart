@@ -29,7 +29,7 @@ abstract class UIProps {
   static BoxDecoration? boxCard;
 
   static init(BuildContext context) {
-    ScreenUtil.init(context, designSize: const Size(428, 926));
+    ScreenUtil.init(context, designSize: const Size(430, 920));
 
     initRadius(context);
     initButtons();

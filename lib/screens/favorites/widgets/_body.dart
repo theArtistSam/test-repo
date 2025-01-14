@@ -46,7 +46,7 @@ class _Body extends StatelessWidget {
               children: [
                 Text(
                   "Pages",
-                  style: AppText.h2b,
+                  style: AppText.h1b!.cl(AppTheme.c.textGrey!),
                 ),
                 IconButton(
                   onPressed: () {},

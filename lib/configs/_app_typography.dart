@@ -31,7 +31,7 @@ class AppText {
   static TextStyle? l2bm;
 
   static init(BuildContext context) {
-    ScreenUtil.init(context, designSize: const Size(428, 926));
+    ScreenUtil.init(context, designSize: const Size(430, 920));
     const b = FontWeight.bold;
     // For now getting rid of the color property
     // perhaps the styles are needed to be defined from here
